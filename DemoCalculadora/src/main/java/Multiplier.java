@@ -1,26 +1,26 @@
-public class Adder extends CalculateBase implements MathProcessing {
+public class Multiplier extends CalculateBase implements MathProcessing {
 
-
-    public Adder(){
+    public Multiplier(){
 
     }
-    public Adder(double leftVal,double rightVal){
+
+    public Multiplier (double leftVal,double rightVal){
         super(leftVal, rightVal);
     }
 
-    @Override
-    public void operate(){
-        double result = getLeftVal()+getRightVal();
+    public void operate() {
+        double result = getLeftVal()*getRightVal();
         setResult(result);
     }
 
     @Override
     public String getKeyword() {
-        return "add";
+        return "multiply";
     }
+
     @Override
     public char getSymbol() {
-        return '+';
+        return '*';
     }
 
     @Override

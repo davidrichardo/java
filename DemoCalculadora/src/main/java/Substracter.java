@@ -1,4 +1,4 @@
-public class Substracter extends CalculateBase {
+public class Substracter extends CalculateBase implements MathProcessing {
 
     public Substracter(){
 
@@ -11,6 +11,23 @@ public class Substracter extends CalculateBase {
     public void operate() {
         double result = getLeftVal()-getRightVal();
         setResult(result);
-        System.out.println("Substract is "+ getResult());
+    }
+
+    @Override
+    public String getKeyword() {
+        return "substract";
+    }
+
+    @Override
+    public char getSymbol() {
+        return '-';
+    }
+
+    @Override
+    public double doCalculation(double leftVal, double rightVal) {
+        setLeftVal(leftVal);
+        setRightVal(rightVal);
+        operate();
+        return getResult();
     }
 }

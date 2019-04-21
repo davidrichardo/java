@@ -7,6 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3133e5a2-c473-4246-8f51-b8960dbd3167" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/artifacts/DemoCalculadora_jar/DemoCalculadora.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ConvertString$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ConvertString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Dividier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DynamicHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/EnumCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/InvalidExceptions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MathProcessing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Multiplier.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -86,9 +95,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DemoCalculadora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DemoCalculadora" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoCalculadora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DemoCalculadora" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoCalculadora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DemoCalculadora" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoCalculadora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DemoCalculadora" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555788687160</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="#Advance into learning interfaces and inherence">
+      <created>1555812383763</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555812383763</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -159,7 +203,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -176,7 +220,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />

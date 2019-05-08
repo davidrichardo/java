@@ -1,1 +1,0 @@
-#Este respositorio es de uso formativo para el aprendizaje del uso del Lenguaje JAVA.

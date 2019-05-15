@@ -1,30 +1,43 @@
 package com.pluralsight.bookstore.module;
 
 import javax.persistence.*;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Past;
+import javax.validation.constraints.Size;
 import java.util.Date;
 
 @Entity
 public class Book {
 
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     private Long id;
 
     @Column(length = 200)
+    @NotNull
+    @Size(min = 1,max = 200)
     private String title;
 
-    @Column(length = 1000)
+    @Column(length = 10000)
+    @Size(min = 1,max = 10000)
     private String description;
 
+    @NotNull
+    @Size(min = 1,max = 50)
     private String isbn;
 
     @Column(name = "nb_of_pages")
     private Integer nbOfPages;
 
+
     @Column(name = "unit_cost")
+    @Min(1)
     private Float unitCost;
 
     @Temporal(TemporalType.DATE)
     @Column(name = "publication_date")
+    @Past
     private Date publicationDate;
 
     @Column(name = "image_url")

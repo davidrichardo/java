@@ -33,6 +33,17 @@ public class bookRepositoryTest {
 
     }
 
+    @Test(expected = Exception.class)
+    public void createInvalidBook(){
+        Book book = new Book(null,"descrition","isbn",123,12F,new Date(),"http://bbablabab",Language.ENGLISH);
+        bookRepository.create(book);
+    }
+
+    @Test(expected = Exception.class)
+    public void findWithInvalidId(){
+       bookRepository.find(null);
+    }
+
     @Test
     public void create() throws Exception{
         //Test Counting Book

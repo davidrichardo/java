@@ -1,4 +1,4 @@
-package com.pluralsight.bookstore.module;
+package com.pluralsight.bookstore.model;
 
 import javax.persistence.*;
 import javax.validation.constraints.Min;

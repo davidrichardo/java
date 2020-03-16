@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/home/dramirez/Downloads/OPS_EF/javax.jms-api-2.0.1.jar" sourcepath="/opt/maven-repo/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="/home/dramirez/Downloads/OPS_EF/com.ibm.mq.allclient-9.1.4.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
